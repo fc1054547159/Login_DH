@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>aplicacion</h1>
+      <h1>inicie su registro</h1>
       {isAuthenticated ? <LogoutButton/> : <LoginButton />}
       <Profile />
     </div>
