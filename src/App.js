@@ -1,5 +1,6 @@
 import './App.css';
 import LoginButton from './components/LoginButton';
+import LogoutButton from './components/LogoutButton';
 import Profile from './components/Profile';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>aplicacion</h1>
       <LoginButton />
+      <LogoutButton/>
       <Profile />
     </div>
   );
